@@ -4,6 +4,7 @@
 @import "./partials/experience.scss";
 @import "./partials/nav.scss";
 @import "./partials/projects.scss";
+@import "./partials/contact.scss";
 
 * {
   margin: 0;
@@ -140,6 +141,11 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+  // Contact
+  .container.contact_container{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 @media screen and (max-width: 600px) {
   .container {
@@ -186,4 +192,8 @@ img {
    grid-template-columns: 1fr;
    gap: 1rem;
  }
+  // Contact
+  .container.contact_container{
+    width: $container-width-sm;
+  }
 }
