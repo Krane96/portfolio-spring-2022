@@ -1,0 +1,113 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $Poppins;
+  background: $bg;
+  color: $white;
+  line-height: 1.7;
+  background-image: url(../../public/images/bg-texture.png);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: $container-width-lg;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+h1{
+  font-size: 2.5rem;
+}
+
+section{
+  margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: $light-grey;
+}
+
+section > h2 {
+  color: $primary;
+  margin-bottom: 3rem;
+}
+
+.text-light{
+  color: $light-grey;
+}
+
+a{
+  color: $primary;
+  transition: $Transition;
+}
+
+a:hover {
+  color: $white;
+}
+
+.btn{
+  width: max-content;
+  display: inline-block;
+  color: $primary;
+  padding: 0.7rem 1.2rem;
+  border-radius: $BtnRadius;
+  cursor: pointer;
+  border: 1px solid $primary;
+  transition: $Transition;
+}
+.btn:hover{
+  background: $white;
+  color: $bg;
+  border-color: transparent;
+}
+
+.btn-primary{
+  background: $primary;
+  color: $bg;
+}
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px){
+  .container {
+    width: $container-width-md;
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .container {
+    width: $container-width-sm;
+  }
+  section > h2{
+    margin-bottom: 2rem;
+  }
+}
