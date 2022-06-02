@@ -1,10 +1,9 @@
-import Header from "./components/Header";
+import Header from "./components/header/Header";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
-import Portfolio from "./components/Portfolio";
-import Services from "./components/Services";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -14,8 +13,7 @@ const App = () => {
       <About />
       <Experience />
       <Contact />
-      <Services />
-      <Portfolio />
+      <Projects />
     </>
   );
 };

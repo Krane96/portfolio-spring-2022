@@ -1,0 +1,32 @@
+@import "../variables";
+
+.projects_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+.project_item{
+    background: $bg-secondary;
+    padding: 1.3rem;
+    border-radius: $NormalRadius;
+    border: 1px solid transparent;
+    transition: $Transition;
+}
+
+.project_item:hover{
+    border-color: $primary-secondary;
+    background: transparent;
+}
+
+.project_img{
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.project_item h3{
+     margin: 1.2rem 0 2rem;
+}
+.project_item_cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}

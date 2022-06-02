@@ -1,0 +1,55 @@
+@import "../variables";
+
+.about_container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+.about_me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: $NormalRadius;
+  background: linear-gradient(45deg, transparent, $primary, transparent);
+  display: grid;
+  place-items: center;
+}
+.about_img {
+  border-radius: $NormalRadius;
+  overflow: hidden;
+  transform: rotate(10deg);
+}
+
+.about_img:hover {
+  transform: rotate(0);
+}
+
+.about_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.about_card{
+    background: $bg-secondary;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: $Transition;
+}
+.about_card:hover{
+    background: transparent;
+    border-color: $primary-secondary;
+    cursor: default;
+}
+.about_card h5{
+    font-size: 0.9rem;
+}
+.about_card small{
+    font-size: 0.7rem;
+    color: $light-grey;
+}
+.about_content p{
+    margin: 0rem 0 2.6rem;
+    color: $light-grey;
+}

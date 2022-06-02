@@ -1,0 +1,38 @@
+@import "../variables";
+.experience_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience_container > div {
+    background: $bg-secondary;
+    padding: 2.5rem 5rem;
+    border-radius: $NormalRadius;
+    border: 1px solid transparent;
+    transition: $Transition;
+}
+.experience_container > div:hover{
+    background: transparent;
+    border-color: $primary-secondary;
+    cursor: default;
+}
+
+.experience_container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: $primary;
+}
+.experience_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.experience_details {
+    display: flex;
+    gap: 1rem;
+}
+.experience_details_icon{
+    margin-top: 5px;
+    color: $primary;
+}

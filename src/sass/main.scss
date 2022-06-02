@@ -1,4 +1,9 @@
 @import "./variables";
+@import "./partials/header.scss";
+@import "./partials/about.scss";
+@import "./partials/experience.scss";
+@import "./partials/nav.scss";
+@import "./partials/projects.scss";
 
 * {
   margin: 0;
@@ -37,11 +42,11 @@ h4,
 h5 {
   font-weight: 500;
 }
-h1{
+h1 {
   font-size: 2.5rem;
 }
 
-section{
+section {
   margin-top: 8rem;
 }
 
@@ -56,11 +61,11 @@ section > h2 {
   margin-bottom: 3rem;
 }
 
-.text-light{
+.text-light {
   color: $light-grey;
 }
 
-a{
+a {
   color: $primary;
   transition: $Transition;
 }
@@ -69,7 +74,7 @@ a:hover {
   color: $white;
 }
 
-.btn{
+.btn {
   width: max-content;
   display: inline-block;
   color: $primary;
@@ -79,35 +84,106 @@ a:hover {
   border: 1px solid $primary;
   transition: $Transition;
 }
-.btn:hover{
+.btn:hover {
   background: $white;
   color: $bg;
   border-color: transparent;
 }
 
-.btn-primary{
+.btn-primary {
   background: $primary;
   color: $bg;
 }
-img{
+img {
   display: block;
   width: 100%;
   object-fit: cover;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .container {
     width: $container-width-md;
   }
   section {
     margin-top: 6rem;
   }
+  // Header
+  header {
+    height: 68vh;
+  }
+  // About
+  .about_container{
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about_me{
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .about_content p{
+    margin: 1rem 0 1.5rem;
+  }
+  // Experience
+  .experience_container{
+    grid-template-columns: 1fr;
+  }
+  .experience_container > div{
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .experience_content{
+    padding: 1rem;
+  }
+  // Projects
+  .projects_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .container {
     width: $container-width-sm;
   }
-  section > h2{
+  section > h2 {
     margin-bottom: 2rem;
   }
+  // Header
+  header {
+    height: 100vh;
+  }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
+  // About
+  .about_me{
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .about_cards{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .about_content{
+    text-align: center;
+  }
+  .about_content p{
+    margin: 1.5rem 0;
+  }
+  // Experience 
+
+  .experience_container {
+    gap: 1rem;
+  }
+
+  .experience_container > div{
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+ // Projects
+ .projects_container{
+   grid-template-columns: 1fr;
+   gap: 1rem;
+ }
 }
