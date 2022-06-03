@@ -44,7 +44,7 @@ const Contact = () => {
             <MdOutlinePhone className="contact_icon" />
             <h4>Phone</h4>
             <h5>+47 90946552</h5>
-            <a href="callto:+4790946552" target="_blank">
+            <a href="tel:+4790946552" target="_blank">
               Call Me
             </a>
           </article>

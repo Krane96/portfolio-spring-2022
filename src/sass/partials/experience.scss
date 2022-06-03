@@ -6,7 +6,7 @@
 }
 
 .experience_container > div {
-    background: $bg-secondary;
+    background: linear-gradient($box-secondary,$box-primary);
     padding: 2.5rem 5rem;
     border-radius: $NormalRadius;
     border: 1px solid transparent;
