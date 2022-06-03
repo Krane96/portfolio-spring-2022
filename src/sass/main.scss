@@ -156,9 +156,8 @@ img {
 @media screen and (max-width: 600px) {
   body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url(../../public/images/bg-test3-mobile.jpg);
-    background-position: center;
-  background-size: cover;
+    url(../../public/images/bg-test2-reseize.jpg);
+    background-attachment: fixed;
   }
   .container {
     width: $container-width-sm;
