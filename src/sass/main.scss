@@ -5,6 +5,7 @@
 @import "./partials/nav.scss";
 @import "./partials/projects.scss";
 @import "./partials/contact.scss";
+@import "./partials/footer";
 
 * {
   margin: 0;
@@ -48,7 +49,8 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin: 8rem auto 0 auto;
+  max-width: 1300px; 
 }
 
 section > h2,
@@ -146,6 +148,7 @@ img {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  
 }
 @media screen and (max-width: 600px) {
   .container {
@@ -195,5 +198,13 @@ img {
   // Contact
   .container.contact_container{
     width: $container-width-sm;
+  }
+  // Footer
+  .permalinks{
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .footer_socials{
+    margin-bottom: 2.5rem;
   }
 }
