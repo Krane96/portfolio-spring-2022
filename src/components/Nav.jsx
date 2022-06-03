@@ -1,5 +1,4 @@
-import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiOutlineMail } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { useState } from "react";
 
@@ -27,6 +26,13 @@ const Nav = () => {
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBook />
+      </a>
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
+        <AiOutlineMail />
       </a>
     </nav>
   );
