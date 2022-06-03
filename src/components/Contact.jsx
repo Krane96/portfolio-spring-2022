@@ -1,5 +1,5 @@
 import React from "react";
-import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
@@ -38,6 +38,14 @@ const Contact = () => {
             <h5>martinkrane96@gmail.com</h5>
             <a href="mailto:martinkrane96@gmail.com" target="_blank">
               Send a Message
+            </a>
+          </article>
+          <article className="contact_option">
+            <MdOutlinePhone className="contact_icon" />
+            <h4>Phone</h4>
+            <h5>+47 90946552</h5>
+            <a href="callto:+4790946552" target="_blank">
+              Call Me
             </a>
           </article>
         </div>

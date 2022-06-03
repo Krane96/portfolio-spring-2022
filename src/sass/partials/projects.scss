@@ -6,7 +6,7 @@
     gap: 2.5rem;
 }
 .project_item{
-    background: $bg-secondary;
+    background: linear-gradient($box-secondary,$box-primary);
     padding: 1.3rem;
     border-radius: $NormalRadius;
     border: 1px solid transparent;
@@ -19,11 +19,12 @@
 }
 
 .project_img{
-    border-radius: 1rem;
+    border-radius: 0.2rem;
     overflow: hidden;
 }
 .project_item h3{
      margin: 1.2rem 0 2rem;
+     text-align: center;
 }
 .project_item_cta{
     display: flex;
