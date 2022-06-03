@@ -26,7 +26,10 @@ body {
   background: $bg;
   color: $white;
   line-height: 1.7;
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../../public/images/bg_texture.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(../../public/images/bg-test2.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -50,7 +53,7 @@ h1 {
 
 section {
   margin: 8rem auto 0 auto;
-  max-width: 1300px; 
+  max-width: 1300px;
 }
 
 section > h2,
@@ -115,40 +118,39 @@ img {
     height: 68vh;
   }
   // About
-  .about_container{
+  .about_container {
     grid-template-columns: 1fr;
     gap: 0;
   }
-  .about_me{
+  .about_me {
     width: 50%;
     margin: 2rem auto 4rem;
   }
-  .about_content p{
+  .about_content p {
     margin: 1rem 0 1.5rem;
   }
   // Experience
-  .experience_container{
+  .experience_container {
     grid-template-columns: 1fr;
   }
-  .experience_container > div{
+  .experience_container > div {
     width: 80%;
     padding: 2rem;
     margin: 0 auto;
   }
-  .experience_content{
+  .experience_content {
     padding: 1rem;
   }
   // Projects
-  .projects_container{
+  .projects_container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
   // Contact
-  .container.contact_container{
+  .container.contact_container {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
 }
 @media screen and (max-width: 600px) {
   .container {
@@ -166,45 +168,45 @@ img {
     display: none;
   }
   // About
-  .about_me{
+  .about_me {
     width: 65%;
     margin: 0 auto 3rem;
   }
-  .about_cards{
+  .about_cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
-  .about_content{
+  .about_content {
     text-align: center;
   }
-  .about_content p{
+  .about_content p {
     margin: 1.5rem 0;
   }
-  // Experience 
+  // Experience
 
   .experience_container {
     gap: 1rem;
   }
 
-  .experience_container > div{
+  .experience_container > div {
     width: 100%;
     padding: 2rem 1rem;
   }
- // Projects
- .projects_container{
-   grid-template-columns: 1fr;
-   gap: 1rem;
- }
+  // Projects
+  .projects_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
   // Contact
-  .container.contact_container{
+  .container.contact_container {
     width: $container-width-sm;
   }
   // Footer
-  .permalinks{
+  .permalinks {
     flex-direction: column;
     gap: 1.5rem;
   }
-  .footer_socials{
+  .footer_socials {
     margin-bottom: 2.5rem;
   }
 }
