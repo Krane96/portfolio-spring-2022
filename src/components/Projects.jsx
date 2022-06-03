@@ -8,12 +8,12 @@ const Projects = () => {
       <div className="container projects_container">
         <article className="project_item">
           <div className="project_img">
-            <img src="/images/boostcraft.jpg" alt="project" />
+            <img src="/images/holidaze.png" alt="project" />
           </div>
-          <h3>World of Boostcraft</h3>
+          <h3>Holidaze</h3>
           <div className="project_item_cta">
             <a
-              href="https://github.com/Krane96/martin-lk-semester-project-2"
+              href="https://github.com/Krane96/"
               target="_blank"
               className="btn"
             >
