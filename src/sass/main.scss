@@ -154,6 +154,10 @@ img {
   }
 }
 @media screen and (max-width: 600px) {
+  body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(../../public/images/bg-test2-mobile.jpg);
+  }
   .container {
     width: $container-width-sm;
   }
