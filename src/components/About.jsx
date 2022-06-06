@@ -26,12 +26,17 @@ const About = () => {
             </article>
           </div> */}
           <p>
-            Hello My name is Martin Lian Krane, i'm a 25 year old boy living in
-            Bergen, Norway. I am currently studying Frontend for two years and
-            i'm done summer 2022.<br/><br/>  I am a very active and nerdy person, I love
-            everything from technology, gaming, tv and working out.<br/><br/> I have
-            learned a lot from my short time as a programmer and am eager to
-            learn more. Got a good eye for details and I am a fast learner.
+            Hello, My name is Martin Lian Krane. I currently reside in Bergen,
+            Norway and have been studying Frontend development for 2 years. My
+            program ends in June 2022. <br />
+            <br /> Besides the love for technology, I enjoy doing physical
+            activities, being active and exercising. I enjoy having intellectual
+            conversations as well as spending my time gaming, enjoying tv shows
+            and movies.
+            <br />
+            <br /> I have learned a lot from my short time as a programmer and
+            am eager to learn more. Got a good eye for details and I am a fast
+            learner.
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact Me
