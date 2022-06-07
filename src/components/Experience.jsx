@@ -19,7 +19,7 @@ const Experience = () => {
             <article className="experience_details">
               <div>
                 <BsPatchCheckFill className="experience_details_icon" />
-                <h4>CSS</h4>
+                <h4>CSS & Sass</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -28,6 +28,27 @@ const Experience = () => {
                 <BsPatchCheckFill className="experience_details_icon" />
                 <h4>REACT</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <BsPatchCheckFill className="experience_details_icon" />
+                <h4>Next JS</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <BsPatchCheckFill className="experience_details_icon" />
+                <h4>Bootstrap</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <div>
+                <BsPatchCheckFill className="experience_details_icon" />
+                <h4>Node JS</h4>
+                <small className="text-light">Basic</small>
               </div>
             </article>
           </div>
@@ -53,16 +74,10 @@ const Experience = () => {
               <div>
                 <BsPatchCheckFill className="experience_details_icon" />
                 <h4>Elementor and Wordpress</h4>
-                <small className="text-light">Basics</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
-            <article className="experience_details">
-              <div>
-                <BsPatchCheckFill className="experience_details_icon" />
-                <h4>Copying from Youtube and Stackoverflow</h4>
-                <small className="text-light">Intermidiate</small>
-              </div>
-            </article>
+            
           </div>
         </div>
       </div>

@@ -1,37 +1,45 @@
 @import "../variables";
 
-.projects_container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+.projects_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
-.project_item{
-    background: linear-gradient($box-secondary,$box-primary);
-    padding: 1.3rem;
-    border-radius: $NormalRadius;
-    border: 1px solid transparent;
-    transition: $Transition;
-}
-
-.project_item:hover{
-    border-color: $primary-secondary;
-    background: transparent;
+.project_item {
+  background: linear-gradient($box-secondary, $box-primary);
+  padding: 1.3rem;
+  border-radius: $NormalRadius;
+  border: 1px solid transparent;
+  transition: $Transition;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.project_img{
-    border-radius: 0.2rem;
-    overflow: hidden;
+.project_item:hover {
+  border-color: $primary-secondary;
+  background: transparent;
 }
-.project_img img{
-    height: 120px;
-    object-fit: contain;
+
+.project_img {
+  border-radius: 0.2rem;
+  overflow: hidden;
 }
-.project_item h3{
-     margin: 1.2rem 0 2rem;
-     text-align: center;
+.project_img img {
+  object-fit: contain;
 }
-.project_item_cta{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+.project_item h3 {
+  margin: 1.2rem 0 2rem;
+  text-align: center;
+}
+.project_item_cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.project_description {
+  margin: -1rem 0 2rem 0;
+}
+.project_description p {
+  color: $light-grey;
 }

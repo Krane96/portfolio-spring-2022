@@ -16,7 +16,7 @@
 .about_img {
   border-radius: $NormalRadius;
   overflow: hidden;
-  transform: rotate(10deg);
+  transform: rotate(12deg);
 }
 
 .about_img:hover {
@@ -52,4 +52,9 @@
 .about_content p{
     margin: 0rem 0 2.6rem;
     color: $light-grey;
+    
+}
+.about_content{
+  overflow: hidden;
+  
 }

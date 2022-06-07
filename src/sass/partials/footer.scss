@@ -1,7 +1,7 @@
 @import "../variables";
 
 footer{
-    background: $primary;
+    background: $footer-bg;
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -10,6 +10,8 @@ footer{
 
 footer a{
     color: $bg;
+    font-family: $Montserrat;
+    font-weight: 500;  
 }
 
 .footer_logo{
@@ -36,10 +38,11 @@ footer a{
     background: $bg;
     color: $white;
     padding: 0.8rem;
-    border-radius: 1.2rem;
+    border-radius: 2rem;
     display: flex;
     border: 1px solid transparent;
     font-size: 1.3rem;
+    
 }
 
 .footer_socials a:hover{
