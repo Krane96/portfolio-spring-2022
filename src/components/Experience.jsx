@@ -56,13 +56,7 @@ const Experience = () => {
                 <small className="text-light">Basics</small>
               </div>
             </article>
-            <article className="experience_details">
-              <div>
-                <BsPatchCheckFill className="experience_details_icon" />
-                <h4>Copying from Youtube and Stackoverflow</h4>
-                <small className="text-light">Intermidiate</small>
-              </div>
-            </article>
+            
           </div>
         </div>
       </div>
