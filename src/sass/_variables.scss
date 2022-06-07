@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
 // Fonts
 $Poppins: "Poppins", sans-serif;
+$Montserrat: 'Montserrat', sans-serif;
 
 //  Colors
 $bg: #1f1f38;
-$bg-secondary: #2c2c6c;
-$primary: #4895EF;
+$bg-secondary: #3f37c9;
+$primary: #4895ef;
 $primary-secondary: rgba(77, 181, 255, 0.4);
 $white: #fff;
+$white-hover: rgba(255, 255, 255, 0.85);
 $box-primary: #2c2c6ce2;
 $box-secondary: #272754d4;
+$footer-bg: rgba(77, 181, 255, 0.8);
 
 $light-grey: rgba(255, 255, 255, 0.6);
 
