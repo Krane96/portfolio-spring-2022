@@ -158,9 +158,7 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
-  .project_description{
-    margin: -1rem 0 2rem 0;
-  }
+  
   // Contact
   .container.contact_container {
     grid-template-columns: 1fr;
@@ -215,7 +213,6 @@ img {
   // Projects
   .projects_container {
     grid-template-columns: 1fr;
-    gap: 1rem;
   }
   // Contact
   .container.contact_container {
