@@ -1,7 +1,9 @@
-import React from "react";
 import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Contact = () => {
   const form = useRef();
@@ -27,6 +29,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
+    <div data-aos="fade-right">
     <section id="contact">
       <h5>Get in Touch</h5>
       <h2>Contact Me</h2>
@@ -69,6 +72,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
+    </div>
   );
 };
 
