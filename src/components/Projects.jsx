@@ -4,7 +4,7 @@ AOS.init();
 
 const Projects = () => {
   return (
-    <div data-aos="fade-left">
+    <div data-aos="fade-right"  data-aos-duration="1000">
     <section id="projects">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>

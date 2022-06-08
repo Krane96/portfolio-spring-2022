@@ -5,7 +5,7 @@ AOS.init();
 
 const Experience = () => {
   return (
-    <div data-aos="fade-right">
+    <div data-aos="fade-right"  data-aos-duration="1000">
 
     <section id="experience">
       <h5>What can I do?</h5>

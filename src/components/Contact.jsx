@@ -29,7 +29,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div data-aos="fade-left">
+    <div data-aos="fade-right"  data-aos-duration="1000">
     <section id="contact">
       <h5>Get in Touch</h5>
       <h2>Contact Me</h2>

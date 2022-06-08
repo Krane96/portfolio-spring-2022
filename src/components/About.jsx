@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 AOS.init();
 const About = () => {
   return (
-    <div data-aos="fade-right">
+    <div data-aos="fade-right"  data-aos-duration="1000">
       <section id="about">
         <h5>Get to Know</h5>
         <h2>About Me</h2>
