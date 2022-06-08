@@ -1,4 +1,5 @@
 import { AiOutlineHome, AiOutlineUser, AiOutlineMail } from "react-icons/ai";
+import { VscFileSubmodule } from "react-icons/vsc";
 import { BiBook } from "react-icons/bi";
 import { useState } from "react";
 
@@ -26,6 +27,13 @@ const Nav = () => {
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBook />
+      </a>
+      <a
+        href="#projects"
+        onClick={() => setActiveNav("#projects")}
+        className={activeNav === "#projects" ? "active" : ""}
+      >
+        <VscFileSubmodule />
       </a>
       <a
         href="#contact"
