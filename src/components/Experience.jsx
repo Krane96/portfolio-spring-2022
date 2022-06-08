@@ -1,6 +1,12 @@
 import { BsPatchCheckFill } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 const Experience = () => {
   return (
+    <div data-aos="fade-right">
+
     <section id="experience">
       <h5>What can I do?</h5>
       <h2>My experience</h2>
@@ -82,6 +88,7 @@ const Experience = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

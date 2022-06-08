@@ -1,7 +1,11 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Projects = () => {
   return (
+    <div data-aos="fade-right">
     <section id="projects">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
@@ -100,6 +104,7 @@ const Projects = () => {
         </article>
       </div>
     </section>
+    </div>
   );
 };
 
