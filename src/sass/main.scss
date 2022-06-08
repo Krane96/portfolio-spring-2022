@@ -26,8 +26,8 @@ body {
   background: $bg;
   color: $white;
   line-height: 1.7;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../../public/images/bg_texture.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../../public/images/bg-test2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -163,10 +163,10 @@ img {
   }
 }
 @media screen and (max-width: 600px) {
-  // body {
-  //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-  //     url(../../public/images/bg-test2-reseize.jpg);
-  // }
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+      url(../../public/images/bg-test2-reseize.jpg);
+  }
 
   section > h2 {
     margin-bottom: 2rem;
