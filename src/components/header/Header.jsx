@@ -1,7 +1,11 @@
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const Header = () => {
   return (
+    <div data-aos="fade-down"  data-aos-duration="1000">
     <header>
       <div className="container header_container">
         <h5  id="#home">Hello I'm</h5>
@@ -17,6 +21,7 @@ const Header = () => {
         </a>
       </div>
     </header>
+    </div>
   );
 };
 

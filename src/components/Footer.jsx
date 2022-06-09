@@ -1,8 +1,11 @@
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const Footer = () => {
   return (
+    <div data-aos="fade-up"  data-aos-duration="1000">
     <footer>
       <a href="#" className="footer_logo">
         Martin
@@ -32,6 +35,7 @@ const Footer = () => {
           <small>&copy; Martin Lian Krane. All rights reserved.</small>
       </div>
     </footer>
+    </div>
   );
 };
 
