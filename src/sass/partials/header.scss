@@ -39,16 +39,18 @@ header {
 }
 
 .me{
- background: linear-gradient($primary, transparent);
- width: 22rem;
+  background: linear-gradient(#4896ef3b, #4896ef54);
+ width: 28rem;
  height: 28rem;
  position: absolute;
- left: calc(50% - 11rem);
+ left: calc(50% - 13rem);
  margin-top: 4rem;
- border-radius: 12rem 12rem 0 0;
+ border-radius: 100%;
  overflow: hidden;
- padding: 5rem 1.5rem 5rem 1.5rem;
+ padding: 2rem 3rem 5rem 3rem;
+ border: 2px solid $primary;
 }
+
 
 .scroll_down{
     position: absolute;

@@ -97,12 +97,17 @@ a:hover {
   font-family: $Montserrat;
   font-weight: 500;
 }
-.btn:hover {
-  background: $white-hover;
-  color: $bg;
-  border-color: transparent;
+
+
+.blue {
+  box-shadow: inset 0 0 0.1em $primary, 0 0 0.1em $primary;
+  border: $primary solid 2px;
 }
 
+.blue:hover {
+  background-color: $primary;
+  box-shadow: inset 0 0 0 $primary, 0 0 .3em $primary;
+}
 .btn-primary {
   background: $primary;
   color: $bg;
@@ -227,8 +232,12 @@ img {
     font-size: 2.2rem;
   }
   .me {
-    width: 15rem;
-    left: calc(50% - 7.5rem);
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
+    padding: 1.5rem 1.5rem 4rem 1.5rem;
+    left: calc(50% - 9rem);
+  }
+  header {
+    padding-top: 2.5rem;
   }
 }

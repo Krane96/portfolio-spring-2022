@@ -1,8 +1,8 @@
 import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 AOS.init();
 
 const Contact = () => {
@@ -29,50 +29,59 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div data-aos="fade-right"  data-aos-duration="1000">
     <section id="contact">
       <h5>Get in Touch</h5>
       <h2>Contact Me</h2>
       <div className="container contact_container">
         <div className="contact_options">
-          <article className="contact_option">
-            <MdOutlineEmail className="contact_icon" />
-            <h4>Email</h4>
-            <h5>martinkrane96@gmail.com</h5>
-            <a href="mailto:martinkrane96@gmail.com" target="_blank">
-              Send a Message
-            </a>
-          </article>
-          <article className="contact_option">
-            <MdOutlinePhone className="contact_icon" />
-            <h4>Phone</h4>
-            <h5>+47 90946552</h5>
-            <a href="tel:+4790946552" target="_blank">
-              Call Me
-            </a>
-          </article>
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <article className="contact_option">
+              <MdOutlineEmail className="contact_icon" />
+              <h4>Email</h4>
+              <h5>martinkrane96@gmail.com</h5>
+              <a href="mailto:martinkrane96@gmail.com" target="_blank">
+                Send a Message
+              </a>
+            </article>
+          </div>
+          <div data-aos="fade-right" data-aos-duration="1000">
+            <article className="contact_option">
+              <MdOutlinePhone className="contact_icon" />
+              <h4>Phone</h4>
+              <h5>+47 90946552</h5>
+              <a href="tel:+4790946552" target="_blank">
+                Call Me
+              </a>
+            </article>
+          </div>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            rows="7"
-            required
-          />
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
-        </form>
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <form ref={form} onSubmit={sendEmail}>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="7"
+              required
+            />
+            <button type="submit" className="btn btn-primary">
+              Send Message
+            </button>
+          </form>
+        </div>
       </div>
     </section>
-    </div>
   );
 };
 
