@@ -41,7 +41,7 @@ const About = () => {
               enjoying tv shows and movies.
               <br />
             </p>
-            <a href="#contact" className="btn btn-primary">
+            <a href="#contact" className="btn btn-primary blue">
               Contact Me
             </a>
           </div>

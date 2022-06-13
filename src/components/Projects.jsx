@@ -27,14 +27,14 @@ const Projects = () => {
               <a
                 href="https://github.com/Noroff-FEU-Assignments/project-exam-2-Krane96"
                 target="_blank"
-                className="btn"
+                className="btn blue"
               >
                 Github
               </a>
               <a
                 href="https://project-exam-2-krane96.vercel.app/"
                 target="_blank"
-                className="btn btn-primary"
+                className="btn btn-primary blue"
               >
                 Live Demo
               </a>
@@ -60,14 +60,14 @@ const Projects = () => {
               <a
                 href="https://github.com/Krane96/martin-lk-semester-project-2"
                 target="_blank"
-                className="btn"
+                className="btn blue"
               >
                 Github
               </a>
               <a
                 href="https://jovial-colden-e5dcca.netlify.app/"
                 target="_blank"
-                className="btn btn-primary"
+                className="btn btn-primary blue"
               >
                 Live Demo
               </a>
@@ -92,12 +92,12 @@ const Projects = () => {
               <a
                 href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Krane96"
                 target="_blank"
-                className="btn"
+                className="btn blue"
               >
                 Github
               </a>
 
-              <a href="" target="_blank" className="btn btn-primary">
+              <a href="" target="_blank" className="btn btn-primary blue">
                 Live Demo
               </a>
             </div>
