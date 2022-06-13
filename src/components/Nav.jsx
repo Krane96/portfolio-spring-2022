@@ -14,13 +14,7 @@ const Nav = () => {
       >
         <AiOutlineHome />
       </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <AiOutlineUser />
-      </a>
+
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
@@ -34,6 +28,13 @@ const Nav = () => {
         className={activeNav === "#projects" ? "active" : ""}
       >
         <VscFileSubmodule />
+      </a>
+      <a
+        href="#about"
+        onClick={() => setActiveNav("#about")}
+        className={activeNav === "#about" ? "active" : ""}
+      >
+        <AiOutlineUser />
       </a>
       <a
         href="#contact"
