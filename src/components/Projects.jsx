@@ -11,7 +11,7 @@ const Projects = () => {
         <div data-aos="fade-right" data-aos-duration="1000">
           <article className="project_item">
             <div className="project_img">
-              <img src="/images/holidaze.png" alt="project" />
+              <img src="/images/holidaze.jpg" alt="project" />
             </div>
             <h3>Holidaze</h3>
 
