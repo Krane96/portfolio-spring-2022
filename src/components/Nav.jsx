@@ -1,6 +1,6 @@
 import { AiOutlineHome, AiOutlineUser, AiOutlineMail } from "react-icons/ai";
 import { VscFileSubmodule } from "react-icons/vsc";
-import { BiBook } from "react-icons/bi";
+import { GiBlackBook } from "react-icons/gi";
 import { useState } from "react";
 
 const Nav = () => {
@@ -20,7 +20,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <BiBook />
+        <GiBlackBook />
       </a>
       <a
         href="#projects"
